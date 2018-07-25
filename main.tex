@@ -1,18 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Frequently Asked Questions
-% LaTeX Template
-% Version 1.0 (22/7/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Adam Glesser (adamglesser@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \documentclass[11pt]{article}
 
@@ -80,31 +66,26 @@ The answer to this question.
 
 %------------------------------------------------
 
-\question{Why is there a label in the code for \hyperref[new-question]{the previous question}?}\label{labels}
+\question{Meetings?}\label{meetings}
 
-This is not necessary, but it does give you a way of linking to a different question. In order to link to another question you simply need to add the following:
+depending on how general I want to make this:
 
-\begin{verbatim}
-\hyperref[question-label]{click here}
-\end{verbatim}
+\begin{itemize}
+\item Ask what to attend
+\item How to sign up for mailing lists
+\item Find lists on your own
+\item When should u present
+\end{itemize}
 
-The first part \texttt{[question-label]} is the label name and the second part \texttt{\{click here\}} is the text that is displayed as link.
+\question{Paperwork}\label{paperwork}
 
-%------------------------------------------------
-
-\question{How do I change the title and subtitle?}\label{change-title}
-
-To change the main title, simply find the "TITLE AND LIST OF QUESTIONS" block and replace "A Template for FAQ's" within it. To change the subtitle find the following command:
-
-\begin{verbatim}
-\newlistof{questions}{faq}{\large List of Frequently Asked Questions}
-\end{verbatim}
-
-and replace the subtitle with one of your choosing.
-
-%------------------------------------------------
-
-\question{Is it possible to change the spacing between the questions in the list of questions?}\label{change-spacing}
+\begin{itemize}
+\item sign up at the PI
+\item sign up at cern
+\item sign up for a certificate
+\item 
+\end{itemize}
+\question{Traveling}\label{Traveling}
 
 Yes, simply find the following line:
 
@@ -116,7 +97,7 @@ and change the \texttt{.3em} to whatever suits your fancy.
 
 %------------------------------------------------
 
-\question{What if I want to hide the page numbers and/or trailing dots next to the question in the list of questions?}\label{page-numbering}
+\question{IT-Services and useful knowledge}\label{IT}
 
 To remove the trailing dots to the page numbers, find the line:
 
@@ -131,7 +112,7 @@ and uncomment it. To remove the page numbers as well, find the following lines a
 
 %------------------------------------------------
 
-\question{Is it possible to number questions?}\label{number-questions}
+\question{Miscellaneous}\label{number-questions}
 
 Yes, you can refer to the number of the current question with:
 
